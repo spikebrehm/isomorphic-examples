@@ -1,0 +1,18 @@
+{
+  "name": "grunt-server-example",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "express": "~3.4.7"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-browserify": "~1.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-concurrent": "~0.4.2"
+  },
+  "private": true
+}
