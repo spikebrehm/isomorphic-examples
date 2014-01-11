@@ -1,6 +1,8 @@
-# Grunt + Browserify
+# Grunt, Browserify, Express, Nodemon
 
-Show how to use Grunt to run Browserify.
+Set up a more-involved example using Grunt. Whenever a file in the `client/` dir
+changes, re-run Browserify. Use Express to serve the files at `localhost:3030`. Whenever a
+server-side file changes (i.e., `index.js`), Nodemon restarts the server.
 
 ## Install `grunt-cli` globally
 
@@ -9,12 +11,12 @@ runner globally using NPM:
 
     $ npm install -g grunt-cli
 
-## Create a bundle
+## Start the server
 
-To bundle up your CommonJS module into a single file, just run `grunt`:
+To start the Express server and start the watch tasks running, execute `grunt`:
 
     $ grunt
 
-Then view the `index.html` page:
+Then view the local webserver:
 
-    $ open index.html
+    $ open http://localhost:3030/
