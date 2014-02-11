@@ -16,7 +16,7 @@ module.exports = function (grunt) {
 
     watch: {
       browserify: {
-        files: 'client**/*',
+        files: 'client/**/*',
         tasks: ['browserify'],
         options: {
           interrupt: true
