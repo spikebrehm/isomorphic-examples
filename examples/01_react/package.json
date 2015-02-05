@@ -9,7 +9,8 @@
     "morgan": "^1.5.1",
     "node-jsx": "^0.12.4",
     "react": "^0.12.2",
-    "reactify": "^1.0.0"
+    "reactify": "^1.0.0",
+    "set-cookie": "0.0.4"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,6 +22,8 @@
   "license": "MIT",
   "private": true,
   "browserify": {
-    "transform": ["reactify"]
+    "transform": [
+      "reactify"
+    ]
   }
 }

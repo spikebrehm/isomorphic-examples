@@ -21,7 +21,7 @@ var faves = [
 ];
 
 app.use(function(req, res, next) {
-  var html = React.renderToString(App({faves: faves}));
+  var html = React.renderToString(App({res: res, faves: faves}));
   res.send(wrapWithLayout(html));
 });
 
